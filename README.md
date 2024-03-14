@@ -12,8 +12,10 @@ small icon with a laptop and a mobile device titled "toggle device toolbar"
 Please select that (or you can click Ctrl+Shift+M)
 4.All pages should be viewed like that.
 
-I would've made a website version as well but that would've been extremely redundant since 
-it's meant to be a mobile app that you'd only use on your smartphone. if it wasn't for the lack
+I would've made a website version as well but that would've been extremely redundant since it's meant to be a mobile app that you'd only use on your smartphone. if it wasn't for the lack
 of time of this project I wouldve made an executable but sadly I didn't get to many of the dynamic portions and goals that I had for this project. Things like the process of making the exercises or selecting different dates on the calander. I will continue to work on it throughout the summer and I'd like to thank you for pushing me to start a project like this. I plan to do much more with this in the future. If you have any comments, suggestions on what we can do to make this project even better outside of just the UI and Design please feel free to let me know, I'd love to hear your response.
 
 I hope you enjoy an extremely early prototype version of Fitrack!
+
+
+PLEASE NOTE that on the website a bunch of fonts were not uploading correctly and it started to mess with the whole layout of the app, to experience how the app is supposed to be like please run the SignUp.html File that I submitted through BLACKBOARD and inspect on the browser on your own computer; sorry for the inconvenience it all happened last minute when I was trying to upload the files on the website.
