@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,700,0,200" />    <link rel="stylesheet" href="NewWorkout.css" />
+  </head>
+  <body>
+    <div class ="NewWorkout-container">
+      <h1>TRAINING</h1>
+      <a href="Training.html"><div class="back-icon"><span class="material-symbols-outlined">arrow_back</span></div></a>
+      <h3> Create Routine</h3>
+      <p class="workout-title-text">Workout Title:</p>
+      <div class="workout-title">
+      <input type="text" class="textbox" placeholder="Enter a title for the Workout">
+      </div>
+      <div class="new-exercise">
+        <div class="exercise-title"><input type="text" class="textbox"placeholder = "Enter a title for the Exercise"></div>  
+        <div class="set">
+            <span id="delete-set" class="material-symbols-outlined">close</span>
+            <p class="set-text">Set:1</p>
+            <input type="text" class="textbox" placeholder="Weight..."></input>
+            <input type="text" class="textbox" placeholder="# Reps..."></input>
+        </div>
+        <span id="delete-exercise" class="material-symbols-outlined">Delete</span>       
+        <span id = "addset" class="material-symbols-outlined">add</span>
+        <div id = "notes">
+            <input type= "text"class="textbox" placeholder="Notes...">
+        </div>
+      </div>
+    <span id = "addexercise" class="material-symbols-outlined">add</span>
+    </div>
+      <div class="delete-routine"></div>
+      <nav>
+        <a href="Training.html"><span id="Training-page" class="material-symbols-outlined">exercise</span></a> 
+        <a href="Logs.html"><span id="Logs-page" class="material-symbols-outlined">edit_calendar</span></a>
+        <a href="Settings.html"><span id="Settings-page" class="material-symbols-outlined">settings </span></a>
+     </nav>
+  </body>
+</html>

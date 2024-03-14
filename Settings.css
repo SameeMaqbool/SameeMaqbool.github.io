@@ -1,0 +1,139 @@
+.settings-container {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #343a3f;
+  }
+
+h1{
+    background: -webkit-linear-gradient(#FF9A02,#151819 150%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    top: 2vh;
+    height: auto;
+    position: absolute;
+    font-size: 100px;
+    text-align: center;
+    font-family: Alfa;
+}
+
+h4{
+  position: relative;
+  bottom: 2vh;
+  font-family: Basic;
+  color: white;
+}
+
+div #block{
+  display: flex;
+  border-bottom: #2B3136;
+  padding: 4%;
+  width: 100vw;
+  font-size: 60px;
+  justify-content: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+div #block span{
+  position: relative;
+  justify-content: flex-start;
+  width: 110px;
+  height: 100px;
+  background: -webkit-linear-gradient(#FF9A02,#151819 150%);
+  font-size:100px;
+  font-weight: 1000;
+  color: #343a3f;
+  text-decoration: bold;
+  border-radius: 25%;
+}
+
+#Account{
+ position: fixed;
+ top: 1.5vh;
+ right: 25vw;
+}
+#Notifications{
+  position: fixed;
+  top: 1.5vh;
+  right: 18vw;
+}
+#Feedback{
+  position: fixed;
+  top: 1.5vh;
+  right: 24vw;
+}
+#Report-Bugs{
+  position: fixed;
+  top: 1.5vh;
+  right: 19vw;
+}
+#Logout{
+  position: fixed;
+  top: 1.5vh;
+  right: 29vw;
+}
+#Logout-text{
+  color: rgb(190, 7, 7);
+}
+a{
+  text-decoration: none;
+
+}
+
+nav {
+  bottom: 2vh;
+  width: 90vw;
+  height: 14vh;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  background-image: linear-gradient(#151819, #4E575E);
+  border-radius: 50px;
+}
+#Training-page{
+  color: #64717A;
+  font-size: 250px;
+  position: relative;
+  top: 1.5vh;
+  margin-right: 2.5%;
+}
+
+#Logs-page{
+  color: #64717A;
+  font-size: 250px;
+  position: relative;
+  top: 1.5vh;
+}
+
+#Settings-page{
+  color: #FF9A02;
+  font-size: 250px;
+  position: relative;
+  top: 1.5vh;
+  padding: 10px;
+  margin-left: 2.5%;
+}
+
+@font-face {
+    font-family:Alfa;
+    src: url(Assets/Alfa_Slab_One/AlfaSlabOne-Regular.ttf);
+  }
+  
+  @font-face {
+  font-family: Alumni;
+  src: url(Assets/Alumni_Sans_Inline_One/AlumniSansInlineOne-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: Inter;
+    src: url(Assets/Inter/Inter-VariableFont_slnt\,wght.ttf);
+  }
+
+  @font-face {
+    font-family:Basic;
+    src: url(Assets/Basic-Regular.ttf);
+  }

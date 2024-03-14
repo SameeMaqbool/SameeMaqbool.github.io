@@ -1,0 +1,237 @@
+.SignUp-container {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2a3035;
+}
+.welcome-to-fit-track {
+  top: 20vh;
+  color: rgba(215, 145, 41, 1);
+  width: auto;
+  height: auto;
+  position: fixed;
+  font-size: 100px;
+  text-align: center;
+  font-family: Alfa;
+  font-weight: 400;
+  margin: auto;
+}
+.SignUp{
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.SignUp-SignUp {
+  top: 36vh;
+  color: rgba(255, 153, 1, 1);
+  width: 300px;
+  height: auto;
+  position: fixed;
+  font-size: 120px;
+  text-align: center;
+  font-family: Alumni;
+  font-weight: 400;
+  text-decoration: none;
+}
+.textbox {
+  color: white;
+  font-size: 35px;
+  gap: 16px;
+  width: 48vw;
+  height: 6vh;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  position: relative;
+  font-family: Inter;
+  border-color: rgba(82, 82, 91, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  background-color: var(--dl-color-gray-700);
+}
+::placeholder{
+font-size:30px;
+font-family: Inter;
+}
+.email {
+color: white;
+position:fixed;
+top: 49vh;
+left: 26vw;
+display: flex;
+position: fixed;
+align-items: flex-start;
+}
+.email-address-text {
+  color: rgba(255, 255, 255, 1);
+  width: auto;
+  height: auto;
+  top: 46.5vh;
+  left: 26vw;
+  position: fixed;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.password-text{
+color: white;
+position:fixed;
+top: 57.5vh;
+left: 26vw;
+font-size: 40px;
+font-family: Inter;
+}
+.password {
+  color: white;
+  top: 60vh;
+  left: 26vw;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  flex-shrink: 1;
+}
+
+.re-enter-password-text{
+top: 67vh;
+left: 26vw;
+  color: rgba(255, 255, 255, 1);
+  width: auto;
+  height: auto;
+  position: fixed;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+}
+.re-enter-password{
+  top: 69.5vh;
+  left: 26vw;
+  color: rgba(255, 255, 255, 1);
+  position: fixed;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+button {
+  top: 80vh;
+  margin: 10px;
+  padding: 16px;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: fixed;
+  color: aliceblue;
+  text-align: center;
+  font-size: 60px;
+  font-family: Alfa;
+  font-weight: 400;
+  background-color: rgba(255, 153, 1, 0.7599999904632568);
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.switchto-login-pages {
+  top: 87vh;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 40px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Amiko;
+  font-weight: 800;
+}
+
+.LogIn {
+  color: rgba(255, 153, 1, 0.75);
+  width: auto;
+  height: var(--dl-size-size-medium);
+  font-style: Bold;
+  text-align: center;
+  font-family: Amiko;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@font-face {
+  font-family:Alfa;
+  src: url(Assets/Alfa_Slab_One/AlfaSlabOne-Regular.ttf);
+}
+
+@font-face {
+font-family:Alumni;
+src: url(Assets/Alumni_Sans_Inline_One/AlumniSansInlineOne-Regular.ttf);
+}
+
+@font-face {
+  font-family:Inter;
+  src: url(Assets/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+  font-family:Amiko;
+  src: url(assets/Amiko/Amiko-Regular.ttf);
+}
+
+@media(max-width: 479px) {
+  .SignUp-SignUp {
+    top: 0px;
+    flex: 1;
+    left: 0px;
+    height: 1001px;
+    position: absolute;
+    background-color: #2a3035;
+  }
+  .welcome-to-fit-track {
+    top: 160px;
+    left: 100px;
+  }
+
+  .password {
+    top: 487px;
+    left: 70px;
+  }
+  .email {
+    top: 406px;
+    left: 70px;
+  }
+  .enter-your-email-address {
+    color: rgb(197, 197, 197);
+  }
+  .button {
+    top: 625px;
+    left: 160px;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    align-self: center;
+  }
+  .switchto-login-pages {
+    top: 13px;
+    left: 115px;
+  }
+  
+}

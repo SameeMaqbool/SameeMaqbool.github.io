@@ -1,0 +1,152 @@
+.training-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #343a3f;
+}
+nav {
+  bottom: 2vh;
+  width: 90vw;
+  height: 14vh;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  background-image: linear-gradient(#151819, #4E575E);
+  border-radius: 50px;
+}
+#Training-page{
+  color: #FF9A02;
+  font-size: 250px;
+  position: relative;
+  top: 1.5vh;
+  margin-right: 2.5%;
+}
+
+#Logs-page{
+  color: #64717A;
+  font-size: 250px;
+  position: relative;
+  top: 1.5vh;
+}
+
+#Settings-page{
+  color: #64717A;
+  font-size: 250px;
+  position: relative;
+  top: 1.5vh;
+  padding: 10px;
+  margin-left: 2.5%;
+}
+
+h1{
+  background: -webkit-linear-gradient(#FF9A02,#151819 150%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  top: 2vh;
+  height: auto;
+  position: absolute;
+  font-size: 100px;
+  text-align: center;
+  font-family: Alfa;
+}
+
+.Chest-Day{
+  position:relative;
+  display: flex;
+  bottom: 20vh;
+  width: 90vw;
+  height: 30vh;
+  z-index: 0;
+  background-image: linear-gradient(#010000,#c276047f);
+  border-radius: 10%;
+  justify-content: space-between;
+  color: white;
+}
+.Chest-Day h3{
+  font-size: 100px;
+  font-family: Blinker;
+  position: inherit;
+  left: 5vw;
+  bottom: 3vh;
+  width: 90vw;
+}
+.Chest-Day p{
+  font-size: 50px;
+  font-family: Inter;
+  position: inherit;
+  right: 40vw;
+  top: 6vh;
+  width: 90vw;
+}
+.Chest-Day span{
+  position: absolute;
+  top: 22.5vh;
+  left: 75vw;
+  font-size: 120px;
+  color: #97948F;
+}
+
+.Addicon span{
+position: fixed;
+bottom: 18vh;
+right: 8vw;
+width: 200px;
+height: 200px;
+background: -webkit-linear-gradient(#FF9A02,#151819 150%);
+text-align: center;
+font-size:200px;
+font-weight: 1000;
+color: #343a3f;
+text-decoration: bold;
+border-radius: 50%;
+}
+/* Classes for SelectWorkout.html*/
+h2{
+  position: fixed;
+  top: 8vh;
+  font-size: 70px;
+  color: #A1A1AA;
+  font-weight:200;
+  font-family: Blinker;
+}
+
+.back-icon {
+  position: fixed;
+  bottom: 11vh;
+  left: 5vw;
+  width: 200px;
+  height: 200px;
+  background: #ff9a0291;
+  text-align: center;
+  color: #343a3f;
+  border-radius: 50%;
+  }
+  .back-icon span {
+    font-size:200px;
+    font-weight: 1000;
+    text-decoration: bold;
+  }
+@font-face {
+font-family:Alfa;
+src: url(Assets/Alfa_Slab_One/AlfaSlabOne-Regular.ttf);
+}
+
+@font-face {
+font-family: Alumni;
+src: url(Assets/Alumni_Sans_Inline_One/AlumniSansInlineOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: Blinker;
+  src: url(Assets/Blinker/Blinker-Bold.ttf);
+  }
+
+@font-face {
+font-family: Inter;
+src: url(Assets/Inter/Inter-VariableFont_slnt\,wght.ttf);
+
+}
