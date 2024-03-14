@@ -1,8 +1,7 @@
 # Fitrack
 
 
-To Start to view the project please select SignUp.html
-
+To Start to view the project please select [SignUp.html](https://sameemaqbool.github.io/SignUp.html)
 
 To view and maneuver around this web app only to be used on your mobile devices, so that you can get the view of a mobile device on your computer. I suggest when looking at a page do the following to have the right view of the mobile app.
 
